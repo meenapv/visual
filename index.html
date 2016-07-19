@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Causes of Death</title>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <style>
+      body {
+        font: 14px sans-serif;
+        background-image: url("jGlzr.png");
+        background-repeat: no-repeat;
+        backface-visibility: visible;
+        background-color: inherit;
+      }
+      .title {
+        text-anchor: middle;
+        font-size: 3emem;
+      }
+
+      /* Begin style for stacked area visualization. */
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+      /* End style for stacked area visualization. */
+
+      /* Begin style for tree visualization. */
+      .node circle {
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .node .with-children {
+        fill: #000;
+      }
+
+      .node .without-children {
+        fill: #FFF;
+      }
+
+      .node {
+        font: 12px sans-serif;
+      }
+
+      .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+      }
+
+      /* End style for tree visualization. */
+
+    </style>
+  </head>
+  <body>
+<script data-main="main" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+
+ </body>
+<footer align="center">
+<h1> VISUAL ANALYTICS- MORTALITY RATES IN USA </h1>
+<h2> Team Members: Harini, Easwar, Meenakshi, Sharmi</h2>
+<h4 >
+References : <a href="http://flowingdata.com/2016/01/05/causes-of-death/">ThemeRiver</a>
+<a href="http://bl.ocks.org/robschmuecker/7880033">Hierarchial Tree classification</a>
+</h4>
+</footer>
+</html>
